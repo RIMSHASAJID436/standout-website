@@ -414,8 +414,12 @@ b {
         z-index: 1;
     }  
     .main-heading {
-        font-size: 30px;
+        font-size: 20px;
         width: 320px;
         font-weight: 900;
+    }
+    .text{
+        box-sizing: border-box;
+    margin-left: 5% !important;
     }
 }
