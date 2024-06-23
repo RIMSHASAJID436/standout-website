@@ -431,4 +431,8 @@ b {
         height: 110vh;
         object-fit: cover;
     }
+    .first-sec {
+        background-color: rgb(12, 161, 12);
+        margin-top: -50px;
+    }
 }
