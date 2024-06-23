@@ -428,7 +428,7 @@ b {
         box-sizing: border-box;
         background-repeat: no-repeat;
         color: white;
-        height: 100vh;
+        height: 110vh;
         object-fit: cover;
     }
 }
