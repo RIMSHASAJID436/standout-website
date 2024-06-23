@@ -13,6 +13,7 @@ body {
 .header {
     background-image: url(img/pattern.jpg);
     box-sizing: border-box;
+    background-repeat: no-repeat;
     color: white;
     height: 127vh;
     object-fit: cover;
@@ -414,12 +415,20 @@ b {
         z-index: 1;
     }  
     .main-heading {
-        font-size: 20px;
+        font-size: 35px;
         width: 320px;
         font-weight: 900;
     }
     .text{
         box-sizing: border-box;
-    margin-left: 5% !important;
+    margin-left: 10% !important;
+    }
+    .header {
+        background-image: url(img/pattern.jpg);
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        color: white;
+        height: 100vh;
+        object-fit: cover;
     }
 }
