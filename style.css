@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+}
+
+body {
+    color: white;
+}
+
+.header {
+    background-image: url(img/pattern.jpg);
+    box-sizing: border-box;
+    color: white;
+    height: 127vh;
+    object-fit: cover;
+}
+
+.nav {
+    background-image: url(img/pattern.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 105%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.main-img {
+    margin-left: 10px;
+}
+
+.nav img {
+    width: 180px;
+}
+
+.logo {
+    width: 150px;
+
+}
+
+.icons i {
+    font-size: large;
+    margin-left: 10px;
+    background-color: black;
+    padding: 10px;
+    padding-left: 12px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.line {
+    border: 2px solid green;
+    width: 20%;
+    border-radius: 5px;
+    ;
+    margin-top: 10%;
+    margin-bottom: 8%;
+
+}
+
+.icons i:hover {
+    cursor: pointer;
+    background-color: green;
+    transition: .5s ease;
+}
+
+.fa-bars {
+    font-size: xx-large;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.pages .col-1:hover {
+    cursor: pointer;
+    color: green;
+}
+
+.pages .col-1:first-child {
+    color: green;
+}
+
+.pages {
+    font-weight: bold;
+}
+
+.main-heading {
+    font-size: 50px;
+    width: 400px;
+    font-weight: 900;
+}
+.text{
+    box-sizing: border-box;
+
+}
+
+.btn-sceondary {
+    width: 250px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    margin-top: 8%;
+}
+
+.btn-video {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-left: 106%;
+    color: black;
+    margin-top: -10%;
+}
+
+.btn-video:hover {
+    background-color: green;
+    color: white;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.btn-video i {
+    position: absolute;
+    top: 30px;
+    left: 37px;
+    font-size: xx-large;
+}
+
+.first-sec {
+    background-color: rgb(12, 161, 12);
+}
+
+.f-sec-text {
+    /* width: 460px; */
+    text-align: center;
+    padding: 10px;
+}
+
+.f-sec-text h1 {
+    font-size: 5vw;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.con{
+    width: 100%;
+   
+}
+.h1{
+    width: 500px; 
+    text-align: center;
+}
+.first-sec p {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: large;
+    font-family: sans-serif;
+    margin-top: 10%;
+    color: lightgray;
+}
+
+.sec-section {
+    color: black;
+}
+
+.sec-section h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10%;
+
+}
+
+.cards h2 {
+    margin-top: -43px;
+    margin-left: 60px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.cards p {
+    line-height: 25px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.num {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    padding-left: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.third-sec {
+    color: black;
+    text-align: center;
+    background-color: rgb(245, 242, 242);
+}
+
+.third-sec h1 {
+    font-size: 5vw;
+    font-weight: 800;
+    margin-top: 12%;
+    width:100%;
+}
+.fourth-sec {
+    color: black;
+    text-align: center;
+
+}
+.card{
+    padding: 10px;
+    border: none;
+}
+ul li{
+    color: green;
+    font-size: large;
+}
+sub{
+    font-size: small;
+    font-weight: lighter;
+}
+.fourth-sec h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 12%;
+}
+.card h4{
+    font-weight: bold;
+    padding: 20px;
+}
+.color{
+    background-color: green;
+    color: white;
+}
+.color ul li{
+    color: white;
+}
+.color .btn-sceondary{
+    background-color: white;
+    color: black;
+    width: 280px;
+    margin-left: 15%;
+}
+.color .btn-sceondary:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    color: white;
+    transition: .5s ease;
+}
+.card h1{
+    font-weight: bold;
+    padding: 20px;
+    font-size: 50px;
+}
+.txt p {
+    line-height: 25px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 5%;
+}
+
+.line2 {
+    width: 50%;
+    border-bottom: 1px solid green;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+.icon-color i {
+    color: green;
+}
+
+.icon-color h2 {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.icon-color p {
+    padding: 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.line3 {
+    width: 50%;
+    border-bottom: 1px solid gray;
+    margin-top: 10%;
+}
+
+.user img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.user h3 {
+    color: green;
+}
+.user .texts {
+    text-align: center;
+}
+span {
+    color: gray;
+}
+.sec-last {
+    background-color: rgb(15, 165, 15);
+}
+.sec-last p {
+    line-height: 30px;
+    width: 90%;
+}
+.sec-last h1 {
+    font-weight: 600;
+}
+.footer {
+    background-color: black;
+}
+.footer h1 {
+    color: green;
+    font-weight: 700;
+    font-size: 50px;
+}
+.footer .p {
+    font-family: sans-serif;
+    font-size: x-large;
+    word-spacing: 1px;
+    color: gray;
+}
+.footer p {
+    font-family: sans-serif;
+    font-size: large;
+    word-spacing: 1px;
+    color: gray;
+}
+.footer h3 {
+    font-family: sans-serif;
+}
+input {
+    width: 350px;
+    height: 60px;
+    background: rgb(53, 53, 53);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 13%;
+}
+input::placeholder {
+    font-family: sans-serif;
+    padding: 10px;
+}
+.btn-sceondary2 {
+    width: 150px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 13%;
+}
+.text-secondary h3 {
+    color: green;
+    font-weight: 600;
+}
+b {
+    color: white;
+}
+.pricing h1{
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15%;
+    width: 550px;
+}
+.pricing{
+    color: black;
+}
+.pricing p {
+    color: gray;
+}
+
+@media (max-width: 767px ){
+    .nav {
+        background-image: url(img/pattern.jpg);
+        background-repeat: no-repeat;
+        position: fixed;
+        width: 105%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }  
+    .main-heading {
+        font-size: 40px;
+        width: 300px;
+        font-weight: 900;
+    }
+}
