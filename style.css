@@ -427,17 +427,18 @@ b {
         background-image: url(img/pattern.jpg);
         box-sizing: border-box;
         background-repeat: no-repeat;
+        background-position: center;
         color: white;
         height: 120vh;
         object-fit: cover;
     }
     .text{
         box-sizing: border-box;
-        margin-top: 10%;
+        margin-top: 20% !important;
     
     }
     .first-sec {
         background-color: rgb(12, 161, 12);
-        margin-top: -50px !important;
+        margin-top: -150px !important;
     }
 }
