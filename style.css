@@ -435,7 +435,7 @@ b {
     }
     .text{
         box-sizing: border-box;
-        padding-top: 10% !important;
+        /* padding-top: 10% !important; */
     margin: 0;
     }
     .first-sec {
