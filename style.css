@@ -429,7 +429,7 @@ b {
         background-repeat: no-repeat;
         background-position: center;
         color: white;
-        height: 120vh;
+        height: 100vh;
         /* margin-top: 0; */
         object-fit: cover;
     }
