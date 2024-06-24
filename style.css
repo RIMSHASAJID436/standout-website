@@ -434,7 +434,7 @@ b {
     }
     .text{
         box-sizing: border-box;
-        margin-top: 20% !important;
+        padding-top: 20% !important;
     
     }
     .first-sec {
